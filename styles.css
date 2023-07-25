@@ -1,0 +1,31 @@
+CSS (styles.css):
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#order-form {
+    margin-top: 20px;
+}
+
+#order-form label, #order-form input, #order-form button {
+    display: block;
+    margin-bottom: 10px;
+}
