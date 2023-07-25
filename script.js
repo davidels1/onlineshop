@@ -1,5 +1,3 @@
-
-JavaScript (script.js):
 // Load items from Google Sheets - https://docs.google.com/spreadsheets/d/1Y7QGXt0Oj1mL830iyq5kC0OwszRUGf87OvsqYlXBgW4/edit?usp=sharing
 function loadItems() {
     fetch('https://sheets.googleapis.com/v4/spreadsheets/1Y7QGXt0Oj1mL830iyq5kC0OwszRUGf87OvsqYlXBgW4/values/Sheet1!A2:D?key=AIzaSyD3hKoq1iyBYUBxZUe3WaN3ioAb8b1IyVM')
